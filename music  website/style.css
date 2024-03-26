@@ -1,0 +1,196 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body,html{
+    line-height: 1.5rem;
+    scroll-behavior: smooth;
+    font-size: 1vmax;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color:#270082;
+    color: white;
+    justify-content: space-between;
+    height: 2.5rem;
+}
+.linkTags a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding:  0 1rem;
+}
+.linkTags i{
+    display: none;
+}
+.logo{
+    padding: 0 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.linkTags a:hover{
+    position: relative;
+    top: .1rem;
+    left:.1rem;
+    color: aqua;
+}
+
+@media (max-width:600px){
+ .linkTags i{
+    display: inline-block;
+    padding: 2rem;
+ }
+ .linkTags a{
+    display: none;
+ }
+}
+.heroSection{
+    background-image: url("hero_image.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.content{
+    padding: 2rem;
+}
+.content h1{
+    font-size: 5rem;
+    font-weight: 600;
+    padding:1.5rem;
+    letter-spacing: .3rem;
+}
+.content h3{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+.content p{
+    font-size: 1.2rem;
+}
+.music-section{
+    background-color: #281154;
+    padding-top: 3rem;
+    border-top: 2px solid rgb(129, 119, 244);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    padding: 0 2rem;
+    text-align: center;
+}
+.ipad-iphone-img{
+    position: relative;
+    top: 25rem;
+    margin-top: -25rem;
+    height: 100%;
+    width: 100%;
+    
+
+}
+button{
+    padding: .6rem .7rem ;
+    transition:  .2s ease-in;
+    color: white;
+}
+button:hover{
+    transition: 0.2s ease-in;
+    opacity: .8;
+    transform: scale(1.03);
+    font-weight: 500;
+    transform: all 1s ease;
+}
+.primary-btn{
+    background-color: red;
+}
+.about-music{
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+    margin-top: 28rem;
+    padding: 0 15rem;
+    text-align: center;
+}
+.secondary-btn{
+    background-color:#270082;
+}
+.about-music h3{
+    font-size: 1.5rem;
+}
+.about-music p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.video-section{
+    min-height: 50rem;
+    background-image: url("video.png");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    color: white;
+    
+}
+.video-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 3rem;
+    margin-top: -15rem;
+}
+.gift-section{
+    margin: 6.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    scroll-margin: 6rem;
+}
+.giftContent{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footerContent{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+    color: white;
+    background-color: #281154;
+    padding: 0 1rem;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+}
+.list{
+    width: 20rem;
+}
+.list ul{
+    list-style:none;
+    margin: 2rem 0;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    background-color: #270082;
+    padding: 1rem;
+    font-weight: 900;
+}
